@@ -169,7 +169,7 @@ const TicketForm = ({ ticket }) => {
         <label htmlFor="">Status</label>
         <select name="status" value={formData.status} onChange={handleChange}>
           <option value="not started">Not Started</option>
-          <option value=" started"> Started</option>
+          <option value=" started"> started</option>
           <option value="done">Done</option>
         </select>
         <input

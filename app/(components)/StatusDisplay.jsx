@@ -7,13 +7,15 @@ const StatusDisplay = ({ status }) => {
       case "done":
         color = "bg-green-200";
         return color;
+
       case "started":
-        color = "bg-yellow-200";
+        color = "bg-blue-300";
         return color;
       case "not started":
         color = "bg-red-200";
         return color;
     }
+
     return color;
   };
   return (
