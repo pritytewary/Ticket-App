@@ -32,7 +32,7 @@ const TicketCard = ({ ticket }) => {
         <h4>{ticket.title}</h4>
         <hr className="h-px border-0 bg-page mb-2" />
         <p className="whitespace-pre-wrap"> {ticket.description}</p>
-        <div className="flex-grow"></div>
+
         <div className="flex mt-2">
           <div className="flex flex-col">
             <p className="text-xs my-1"> {formatTimestamp(ticket.createdAt)}</p>
