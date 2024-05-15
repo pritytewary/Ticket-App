@@ -9,7 +9,7 @@ const StatusDisplay = ({ status }) => {
         return color;
 
       case "started":
-        color = "bg-blue-300";
+        color = "bg-[#ADD8E6]";
         return color;
       case "not started":
         color = "bg-red-200";
